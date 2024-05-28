@@ -88,6 +88,10 @@ public class ConsoleClient {
         return true;
     }
 
+    protected boolean isBot() {
+        return false;
+    }
+
     protected SocketThread getSocketThread() {
         return new SocketThread();
     }

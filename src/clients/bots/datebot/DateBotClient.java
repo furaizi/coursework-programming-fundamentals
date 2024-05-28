@@ -1,4 +1,4 @@
-package clients.bots.testbot;
+package clients.bots.datebot;
 
 import clients.console.ConsoleClient;
 import util.ConsoleHelper;
@@ -6,13 +6,13 @@ import util.ConsoleHelper;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
-public class TestBot extends ConsoleClient {
+public class DateBotClient extends ConsoleClient {
 
     private static int counter = 1;
 
 
     public static void main(String[] args) {
-        ConsoleClient client = new TestBot();
+        ConsoleClient client = new DateBotClient();
         client.run();
     }
 
@@ -38,7 +38,7 @@ public class TestBot extends ConsoleClient {
         @Override
         protected void clientMainLoop() {
             sendTextMessage("""
-                    Привіт чатіку. Я бот.
+                    Привіт, чат. Я бот.
                     Розумію команди: дата, день, місяць, рік, час, година, хвилини, секунди.
                     """);
             super.clientMainLoop();
@@ -67,7 +67,7 @@ public class TestBot extends ConsoleClient {
                 case "секунди" -> formatter = new SimpleDateFormat("s");
             }
             if (formatter != null)
-                sendTextMessage("Информация для " + username + ": " +
+                sendTextMessage("Інформація для " + username + ": " +
                         formatter.format(new GregorianCalendar().getTime()));
         }
     }

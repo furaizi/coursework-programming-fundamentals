@@ -7,7 +7,7 @@ This is the client-server chat application for online communication with bots (n
 * [Start the server](https://github.com/furaizi/coursework-programming-fundamentals#start-the-server)  
 * [Start the console client](https://github.com/furaizi/coursework-programming-fundamentals#start-the-console-client)  
 * [Start the GUI client](https://github.com/furaizi/coursework-programming-fundamentals#start-the-gui-client)  
-* [Usage](https://github.com/furaizi/coursework-programming-fundamentals#how-to-use-the-application)  
+* [Usage](https://github.com/furaizi/coursework-programming-fundamentals#usage)  
   * [Console client](https://github.com/furaizi/coursework-programming-fundamentals#console-client)  
   * [GUI client](https://github.com/furaizi/coursework-programming-fundamentals#gui-client)  
 

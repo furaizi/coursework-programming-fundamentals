@@ -61,7 +61,7 @@ To start the client, you need to start the server. If you haven't done it, come 
 ![image](https://github.com/furaizi/coursework-programming-fundamentals/assets/107194668/dd5ffe91-cdbf-4d43-8a0e-ae3f689e3014)
 
 * For 'server address' you need to enter IPv4 address of the server. If you have launched the server on your local machine, just enter 'localhost'.  
-* For 'server port' you need to enter the port of the server. You can get know it from the server administrator.  
+* For 'server port' you need to enter the port of the server. You can get it from the server administrator.  
 * For 'username' you can choose any nickname you want. It only shouldn't contain spaces. 
 
 ## Start the GUI client
@@ -71,7 +71,7 @@ To start the client, you need to start the server. If you haven't done it, come 
 * For 'server address' you need to enter IPv4 address of the server. If you have launched the server on your local machine, just enter 'localhost'.  
 ![Screenshot 2024-06-12 195636](https://github.com/furaizi/coursework-programming-fundamentals/assets/107194668/4b290884-9bb8-4b4c-b5cf-4c2123ed7f73)
   
-* For 'server port' you need to enter the port of the server. You can get know it from the server administrator.
+* For 'server port' you need to enter the port of the server. You can get it from the server administrator.
 ![image](https://github.com/furaizi/coursework-programming-fundamentals/assets/107194668/2efa5cb4-65ee-44f4-bcf5-ca105a5d42f7)
   
 * For 'username' you can choose any nickname you want. It only shouldn't contain spaces.

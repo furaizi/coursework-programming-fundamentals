@@ -15,8 +15,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+import static org.example.clients.ClientConstants.ENTER_SERVER_PORT;
+
 public class Server {
 
+    private static final String ENTER_PORT = "Enter port:";
     private static final String SERVER_IS_ON = "Server is ON";
     private static final String CONNECTION_IS_ESTABLISHED = "A new connection with remote address is established. (%s)";
     private static final String CONNECTION_IS_CLOSED = "A connection with remote address is closed. (%s)";
@@ -26,7 +29,7 @@ public class Server {
 
 
     public static void main(String[] args) throws Exception {
-        var port = ConsoleHelper.readInt();
+        var port = getPort();
         List<Handler> handlersList = new ArrayList<>();
 
         try (var serverSocket = new ServerSocket(port)) {
@@ -39,6 +42,11 @@ public class Server {
                 handler.start();
             }
         }
+    }
+
+    private static int getPort() {
+        ConsoleHelper.writeMessage(ENTER_PORT);
+        return ConsoleHelper.readInt();
     }
 
     public static void sendBroadcastMessage(Message message) {

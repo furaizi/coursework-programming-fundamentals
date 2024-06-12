@@ -14,4 +14,54 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>${mainClass}</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>run-console-client</id>
+            <properties>
+                <mainClass>org.example.clients.console.ConsoleClient</mainClass>
+            </properties>
+        </profile>
+        <profile>
+            <id>run-gui-client</id>
+            <properties>
+                <mainClass>org.example.clients.gui.controller.ClientGuiController</mainClass>
+            </properties>
+        </profile>
+        <profile>
+            <id>run-server</id>
+            <properties>
+                <mainClass>org.example.server.Server</mainClass>
+            </properties>
+        </profile>
+    </profiles>
+
 </project>

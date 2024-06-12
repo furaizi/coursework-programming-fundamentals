@@ -13,7 +13,7 @@ This is the client-server chat application for online communication with bots (n
 
 ## How to start
 
-In order to start the application, you need have installed:
+In order to start the application, you need to have installed:
 * JDK 21 or above
 * Maven
   

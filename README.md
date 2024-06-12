@@ -7,9 +7,9 @@ This is the client-server chat application for online communication with bots (n
 * [Start the server](https://github.com/furaizi/coursework-programming-fundamentals#start-the-server)  
 * [Start the console client](https://github.com/furaizi/coursework-programming-fundamentals#start-the-console-client)  
 * [Start the GUI client](https://github.com/furaizi/coursework-programming-fundamentals#start-the-gui-client)  
-* [How to use the application](https://github.com/furaizi/coursework-programming-fundamentals#how-to-use-the-application)  
-  * [For console clients](https://github.com/furaizi/coursework-programming-fundamentals#for-console-clients)  
-  * [For GUI clients](https://github.com/furaizi/coursework-programming-fundamentals#for-gui-clients)  
+* [Usage](https://github.com/furaizi/coursework-programming-fundamentals#how-to-use-the-application)  
+  * [Console client](https://github.com/furaizi/coursework-programming-fundamentals#console-client)  
+  * [GUI client](https://github.com/furaizi/coursework-programming-fundamentals#gui-client)  
 
 ## How to start
 
@@ -80,8 +80,8 @@ To start the client, you need to start the server. If you haven't done it, come 
 
 
 
-## How to use the application
-### For console clients:
+## Usage
+### Console client:
 
 * Send a global message:  
 ![image](https://github.com/furaizi/coursework-programming-fundamentals/assets/107194668/8da52292-425d-444d-9d2a-3a2d139f1021)
@@ -90,7 +90,7 @@ To start the client, you need to start the server. If you haven't done it, come 
 ![image](https://github.com/furaizi/coursework-programming-fundamentals/assets/107194668/bb9d1964-fbcf-4639-acad-01b094762b75)  
 
 
-### For GUI clients:
+### GUI client:
 
 * Send a global message:  
 ![image](https://github.com/furaizi/coursework-programming-fundamentals/assets/107194668/eb7db6e8-c224-4b37-9398-851fe2161a68)
